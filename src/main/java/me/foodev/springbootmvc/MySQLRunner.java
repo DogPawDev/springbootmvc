@@ -11,7 +11,7 @@ import org.springframework.web.servlet.view.script.ScriptTemplateConfig;
 import javax.sql.DataSource;
 import java.sql.Connection;
 import java.sql.Statement;
-
+/*
 @Component
 public class MySQLRunner implements ApplicationRunner {
 
@@ -41,3 +41,4 @@ public class MySQLRunner implements ApplicationRunner {
 
     }
 }
+*/

@@ -4,6 +4,7 @@ package me.foodev.springbootmvc.posts;
 import lombok.*;
 
 import java.time.LocalDateTime;
+import java.util.List;
 
 @Builder
 @Setter @Getter @NoArgsConstructor @AllArgsConstructor
@@ -14,7 +15,7 @@ public class Post {
     private String title;
     private String contents;
     private String createUser;
-    private String[] imgSource;
+    private String imgSource;
     private LocalDateTime createPostTime;
     private Integer click;
 
